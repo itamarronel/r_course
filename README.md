@@ -51,3 +51,6 @@ The data includes multiple conditions (e.g., congruent and incongruent) and task
 
 ### Location:
 `Week8/stroop_data`
+
+![Accuracy Plot](Week8/plots/accuracy_by_condition.png)
+
