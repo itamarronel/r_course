@@ -63,13 +63,6 @@ ggplot(accuracy_by_condition, aes(x = task, y = mean_accuracy, fill = congruency
   ) +
   theme_minimal()
 
-# Save plot
-ggsave(
-  filename = "Week7/accuracy_by_condition.png",
-  width = 8, height = 6, units = "in"
-)
-
-
 # PLOT REACTION TIME BY TASK AND CONGRUENCY 
 ggplot(rt_stats, aes(x = task, y = mean_rt, fill = congruency)) +
   geom_bar(stat = "identity", position = position_dodge(), color = "black") +
@@ -77,7 +70,7 @@ ggplot(rt_stats, aes(x = task, y = mean_rt, fill = congruency)) +
     aes(ymin = mean_rt - sd_rt, ymax = mean_rt + sd_rt),
     width = 0.2, position = position_dodge(0.9)
   ) +
-  scale_fill_manual(values = color_index$congruency_colors) +
+  scale_fill_manual(values = color_index$congruency_colors) + # Use colors from the index
   labs(
     title = "Mean Reaction Time by Task and Congruency",
     x = "Task",
@@ -85,13 +78,6 @@ ggplot(rt_stats, aes(x = task, y = mean_rt, fill = congruency)) +
     fill = "Congruency"
   ) +
   theme_minimal()
-
-# Save plot
-ggsave(
-  filename = "Week7/reaction_time_by_task_and_congruency.png",
-  width = 8, height = 6, units = "in"
-)
-
 
 # HISTOGRAM OF REACTION TIMES
 ggplot(df_filtered, aes(x = rt, fill = congruency)) +
@@ -104,10 +90,4 @@ ggplot(df_filtered, aes(x = rt, fill = congruency)) +
     fill = "Congruency"
   ) +
   theme_minimal()
-
-# Save plot
-ggsave(
-  filename = "Week7/histogram_of_reaction_times.png",
-  width = 8, height = 6, units = "in"
-)
 
