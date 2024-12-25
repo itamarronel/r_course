@@ -1,6 +1,8 @@
-
-
 #### SCRIPT 4 - INFERENTIAL STATISTICS ----
+# Script: Inferential Statistics
+# Description: This script conducts inferential analyses on Stroop task data, including mixed-effects models and Bayesian analysis.
+# Author: Itamar Ronel
+# Date: 2024-12-25
 
 #### PREPARE WORKSPACE & LOAD DATA ----
 # Clean the environment

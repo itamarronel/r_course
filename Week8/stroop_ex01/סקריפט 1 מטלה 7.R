@@ -1,9 +1,11 @@
-
-
 # R course for beginners
 # Week 7 Assignment by < Itamar > < Ronel >, id < 032702391 >
 
 #### SCRIPT 1 - DATA FRAME ----
+# Script: Data Preprocessing
+# Description: This script preprocesses raw Stroop task data by merging files, adding variables, and filtering columns.
+# Author: Itamar Ronel
+# Date: 2024-12-25
 
 #### PREPARE WORKSPACE & LOAD DATA ----
 # Clean the environment

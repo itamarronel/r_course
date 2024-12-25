@@ -1,6 +1,8 @@
-
-
 #### SCRIPT 2 - FILTERED DATA ----
+# Script: Data Filtering
+# Description: This script filters the Stroop task data, removing outliers and NA values, and calculates retained trial percentages.
+# Author: Itamar Ronel
+# Date: 2024-12-25
 
 #### PREPARE WORKSPACE & LOAD DATA ----
 # Clean the environment

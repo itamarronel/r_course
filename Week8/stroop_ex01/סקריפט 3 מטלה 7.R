@@ -1,6 +1,9 @@
-
-
 #### SCRIPT 3 - DESCRIPTIVE STATISTICS WITH PLOTS ----
+# Script: Descriptive Statistics and Plots
+# Description: This script generates descriptive statistics and visualizations (accuracy, reaction times, histograms) for the Stroop task.
+# Author: Itamar Ronel
+# Date: 2024-12-25
+
 
 #### PREPARE WORKSPACE & LOAD DATA ----
 # Clean the environment
