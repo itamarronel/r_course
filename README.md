@@ -61,32 +61,27 @@ This week focuses on creating a comprehensive dataset and generating descriptive
 We created a dataset with 200 subjects, including variables such as age, gender, reaction time, depression score, and sleep hours.
 The analysis function computes descriptive statistics (min, max, mean, and summaries for categorical variables).
 
-# Results:
-# Full Dataset Analysis
+# Results
+
+## Full Dataset Analysis
 Descriptive statistics for all 200 subjects:
 
-r
-Copy code
-       variable        min      max         mean               summary
-1    subject_id        1      200      100.500                  <NA>
-2           age       18       80       48.505                  <NA>
-3        gender        NA       NA          NA     Female: 108, Male: 92
-4 reaction_time      200     6000     2667.240                  <NA>
-5    depression        0      100       49.710                  <NA>
-6   sleep_hours        2       12        7.050                  <NA>
+- **subject_id**: min = 1, max = 200, mean = 100.500
+- **age**: min = 18, max = 80, mean = 48.505
+- **gender**: Female = 108, Male = 92
+- **reaction_time**: min = 200, max = 6000, mean = 2667.240
+- **depression**: min = 0, max = 100, mean = 49.710
+- **sleep_hours**: min = 2, max = 12, mean = 7.050
 
-# Subset Analysis (Subjects 100–120)
+## Subset Analysis (Subjects 100–120)
 Descriptive statistics for subjects with IDs 100 to 120:
 
-r
-Copy code
-       variable        min      max         mean               summary
-1    subject_id      100      120      110.000                  <NA>
-2           age       29       74       49.810                  <NA>
-3        gender        NA       NA          NA     Female: 13, Male: 8
-4 reaction_time      364     6000     2650.667                  <NA>
-5    depression        0       84       45.238                  <NA>
-6   sleep_hours        2       12        7.619                  <NA>
+- **subject_id**: min = 100, max = 120, mean = 110.000
+- **age**: min = 29, max = 74, mean = 49.810
+- **gender**: Female = 13, Male = 8
+- **reaction_time**: min = 364, max = 6000, mean = 2650.667
+- **depression**: min = 0, max = 84, mean = 45.238
+- **sleep_hours**: min = 2, max = 12, mean = 7.619
 
 # Notes:
  - The analysis function was tested for both the full dataset and specific subsets of subjects.
