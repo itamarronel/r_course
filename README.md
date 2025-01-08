@@ -52,7 +52,7 @@ Structure:
 Location:
 `Week8/stroop_data`
 
-![Accuracy Plot](Week8/plots/accuracy_by_condition.png)
+![Accuracy Plot](Week8/stroop_ex01/accuracy_by_condition.png)
 
 ### Week 9: Data Analysis and Statistics
 
