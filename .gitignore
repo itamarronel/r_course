@@ -1,4 +1,4 @@
-*.csv
-*.pdf
+.csv
+.pdf
 /collected_data/
 /data/
