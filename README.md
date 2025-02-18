@@ -104,4 +104,4 @@ We fitted three logistic regression models:
 
 - The ROC curve below shows model performance, demonstrating that **Model 3 is the best predictor**:
 
-![ROC Curve](Week10/ROC_plot.png)
+![ROC Curve](week10/ROC_plot.png)
