@@ -87,3 +87,21 @@ Descriptive statistics for subjects with IDs 100 to 120:
  - The analysis function was tested for both the full dataset and specific subsets of subjects.
  - All results were verified and are consistent with expectations.
 
+### Week 10: Logistic Regression & ROC Analysis
+This week focuses on logistic regression models and evaluating their performance using ROC curves.
+
+#### **Logistic Regression Models**
+We fitted three logistic regression models:
+1. **Intercept-only model:** Baseline survival probability.
+2. **Gender-based model:** Predicting survival based on gender.
+3. **Gender + Class model:** Predicting survival based on gender and passenger class.
+
+#### **AUC & ROC Curve Analysis**
+- The **Area Under the Curve (AUC)** values for each model:
+  - **Model 1 (Intercept-only):** AUC = 0.500
+  - **Model 2 (Gender):** AUC = 0.753
+  - **Model 3 (Gender + Class):** AUC = 0.808  
+
+- The ROC curve below shows model performance, demonstrating that **Model 3 is the best predictor**:
+
+![ROC Curve](Week10/ROC_plot.png)
